@@ -1,0 +1,133 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/jacob/Repos/game-server/GameServer.Tests/GameServer.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/jacob/Repos/game-server/GameServer.Tests/GameServer.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jacob/Repos/game-server/GameServer.Tests/GameServer.Tests.csproj",
+        "projectName": "GameServer.Tests",
+        "projectPath": "/home/jacob/Repos/game-server/GameServer.Tests/GameServer.Tests.csproj",
+        "packagesPath": "/home/jacob/.nuget/packages/",
+        "outputPath": "/home/jacob/Repos/game-server/GameServer.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jacob/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "/home/jacob/Repos/game-server/GameServer/GameServer.csproj": {
+                "projectPath": "/home/jacob/Repos/game-server/GameServer/GameServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/jacob/Repos/game-server/GameServer/GameServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/jacob/Repos/game-server/GameServer/GameServer.csproj",
+        "projectName": "GameServer",
+        "projectPath": "/home/jacob/Repos/game-server/GameServer/GameServer.csproj",
+        "packagesPath": "/home/jacob/.nuget/packages/",
+        "outputPath": "/home/jacob/Repos/game-server/GameServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/jacob/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
